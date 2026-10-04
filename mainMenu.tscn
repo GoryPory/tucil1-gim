@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://cv74w5igteoxc"]
+
+[ext_resource type="Script" uid="uid://dn12u7ocbrg15" path="res://main_menu.gd" id="1_wut1r"]
+
+[node name="Node2D" type="Node2D" unique_id=1789400043]
+
+[node name="mainMenu" type="Control" parent="." unique_id=410643406]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wut1r")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="mainMenu" unique_id=947350560]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 59.0
+offset_top = 10.0
+offset_right = 102.0
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="mainMenu/VBoxContainer" unique_id=20225301]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "TUCIL GIM "
+horizontal_alignment = 1
+
+[node name="BtnMain" type="Button" parent="mainMenu/VBoxContainer" unique_id=366244243]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "Play
+"
+
+[node name="BtnKeluar" type="Button" parent="mainMenu/VBoxContainer" unique_id=1633937171]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "Exit"
